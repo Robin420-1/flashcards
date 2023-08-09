@@ -12,9 +12,11 @@ export default function CardStack({
   successRate,
 }: CardStackProps) {
   return (
-    <div id="cardstack">
-      <h2>{title}</h2>
-      <p style={{whiteSpace: "pre"}}>{firstCardText}</p>
+    <div id="cardstack" style={{width: 300}}>
+      <button>
+        <h2>{title}</h2>
+        <p style={{whiteSpace: "pre-wrap"}}>{firstCardText}</p>
+      </button>
     </div>
   );
 }

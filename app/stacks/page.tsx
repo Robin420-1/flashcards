@@ -1,9 +1,9 @@
 import CardStack from "../../components/cardstack";
 
-export default function StacksPage() {
+export default function StacksPage(): JSX.Element {
   return (
     <main>
-      <h3>Flashcards</h3>
+      <h1>Flashcards</h1>
       <CardStack
         title="Quotes"
         firstCardText={'Which Author wrote the following quote?\n\n"To be or not to be, that is the question."'}
